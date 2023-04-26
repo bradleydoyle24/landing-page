@@ -1,13 +1,22 @@
 .header {
-
+  display: flex;
+  justify-content: space-between;
+  background-color: #1F2937;
+  padding: 20px 100px;
 }
 
 .header-text {
-
+  font: bold 24px sans-serif;
+  font-weight: ;
+  color: #F9FAF8;
 }
 
 .header-links {
-
+  display: flex;
+  justify-content: space-evenly;
+  gap: 10px;
+  font: 18px sans-serif;
+  color: #E5E7EB
 }
 
 .header-link {
@@ -26,7 +35,7 @@
 
 }
 
-.text-image-box .header {
+.text-image-header {
 
 }
 
@@ -99,5 +108,5 @@
 }
 
 .footer {
-  
+
 }
