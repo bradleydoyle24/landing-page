@@ -36,31 +36,35 @@
 .text-image-textbox {
   display: flex;
   width: 50%;
-  margin: 10px;
   justify-content: space-evenly;
   flex-direction: column;
 }
 
 .text-image-header {
+  margin: 10px;
   font: 900 48px sans-serif;
   color: #F9FAF8;
 }
 
 .text-image-text {
+  margin: 10px;
   font: 18px sans-serif;
   color: #E5E7EB;
 
 }
 
 .text-image-button {
+  margin: 10px;
 
 }
 
 .text-image-image{
   display: flex;
   width: 50%;
-  margin: 10px;
-  border: solid black;
+  justify-content: center;
+  align-items: center;
+  background-color: gray;
+  color: #E5E7EB;
 }
 
 .image-subtext {
