@@ -83,6 +83,7 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 100px 150px;
 }
 
 .card-title {
@@ -95,15 +96,30 @@ body {
 }
 
 .card {
-
+  display: flex;
+  flex-direction: column;
+  padding: 50px 20px;
+  flex-basis: 200px 200px;
 }
 
 .card-image {
+  display: flex;
+  height: 200px;
+  width: 200px;
+  border: solid;
+  border-color: #3882f6;
+  border-radius: 12px;
+  border-width: thick;
 
 }
 
 .card-text {
-
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font: 18px sans-serif;
+  color: gray;
+  padding: 15px;
 }
 
 .quote {
