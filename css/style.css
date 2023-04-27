@@ -1,8 +1,12 @@
+body {
+  margin: 0;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   background-color: #1F2937;
-  padding: 20px 200px;
+  padding: 20px 150px;
 }
 
 .header-text {
@@ -30,7 +34,7 @@
   justify-content: space-between;
   gap: 20px;
   background-color: #1F2937;
-  padding: 100px 200px;
+  padding: 100px 150px;
 }
 
 .text-image-textbox {
@@ -54,8 +58,12 @@
 }
 
 .text-image-button {
-  margin: 10px;
-
+  padding: 10px 40px;
+  border-radius: 12px;
+  border-style: none;
+  font: 600 18px sans-serif;
+  color: #F9FAF8;
+  background-color: #31AECD;
 }
 
 .text-image-image{
