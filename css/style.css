@@ -93,19 +93,28 @@ body {
 
 .card-div {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  padding: 20px 10%;
+  
 }
 
 .card {
   display: flex;
   flex-direction: column;
   padding: 50px 20px;
-  flex-basis: 10% 10%;
+  flex-basis: 20%;
+}
+
+/* Keeps blue squares at a specfic height without any content */
+.card-image:before {
+  content: '';
+  display: block;
+  padding-top: 100%;
 }
 
 .card-image {
   display: flex;
-  height: 200px;
-  width: 200px;
   border: solid;
   border-color: #3882f6;
   border-radius: 12px;
