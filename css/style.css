@@ -123,15 +123,26 @@ body {
 }
 
 .quote {
-
+  display: flex;
+  flex-direction: column;
+  padding: 100px 150px;
+  background-color: #E5E7EB;
 }
 
 .quote-text {
+  font: 36px sans-serif;
+  color: #1f2937;
+  font-weight: light;
+  font-style: italic;
 
 }
 
 .quote-author {
-
+  font: 25px sans-serif;
+  font-weight: bold;
+  display: flex;
+  justify-content: flex-end;
+  padding: 20px;
 }
 
 .action-call {
