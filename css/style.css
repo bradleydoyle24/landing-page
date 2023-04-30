@@ -40,26 +40,28 @@ body {
 
 .text-image-textbox {
   display: flex;
-  width: 50%;
   justify-content: space-evenly;
+  width: 50%;
   flex-direction: column;
 }
 
 .text-image-header {
   display: flex;
-  margin: 10px;
   font: 900 48px sans-serif;
   color: #F9FAF8;
+  margin-bottom: 10px;
 }
 
 .text-image-text {
   display: flex;
-  margin: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
   font: 18px sans-serif;
   color: #E5E7EB;
 }
 
 .text-image-button {
+  margin-top: 10px;
   padding: 10px 40px;
   border-radius: 12px;
   border-style: none;
@@ -71,7 +73,6 @@ body {
 .text-image-image{
   display: flex;
   width: 50%;
-  /* Makes image placeholder height take up the full height without image.  Better solution?*/
   align-self: stretch;
   justify-content: center;
   align-items: center;
