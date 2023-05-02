@@ -6,7 +6,7 @@ body {
   display: flex;
   justify-content: space-between;
   background-color: #1F2937;
-  padding: 20px 10%;
+  padding: 20px 10vw;
 }
 
 .header-text {
@@ -35,7 +35,7 @@ body {
   align-items: center;
   gap: 20px;
   background-color: #1F2937;
-  padding: 100px 10%;
+  padding: 100px 10vw;
 }
 
 .text-image-textbox {
@@ -84,10 +84,11 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 100px 10%;
+  padding: 100px 10vw;
 }
 
 .card-title {
+  display: flex;
   font: 900 36px sans-serif;
   color: #1F2937
 }
@@ -95,16 +96,14 @@ body {
 .card-div {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-evenly;
-  padding: 20px 10%;
-  
+  justify-content: space-around;  
 }
 
 .card {
   display: flex;
   flex-direction: column;
   padding: 50px 20px;
-  flex-basis: 20%;
+  flex-basis: 12vw;
 }
 
 /* Keeps blue squares at a specfic height without any content */
@@ -194,10 +193,14 @@ body {
 
 .sign-up-button-div {
   display: flex;
+  flex-wrap: nowrap;
   justify-content: flex-end;
   flex-grow: 0;
 }
 .sign-up-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   border-style: solid;
   border-color: white;
   border-width: medium;
